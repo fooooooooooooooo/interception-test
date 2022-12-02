@@ -1,0 +1,12 @@
+[package]
+name = "interception-test"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.66"
+dont_disappear = "3.0.1"
+interception = "0.1.2"
+windows = { version = "0.43.0", features = ["Win32_UI_WindowsAndMessaging"] }
